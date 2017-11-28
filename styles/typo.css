@@ -1,0 +1,50 @@
+
+html {font-size: 1em;}
+
+body {
+  font-family: Didact Gothic;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {
+font-size: 3.375em;
+column-span: none;
+
+}
+
+h3 {font-size: 2.25em;}
+
+h4 {font-size: 1.5em;}
+
+small, .font_small {font-size: 0.667em;}
+
+.nastyadvert h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-align: center;
+  color: pink;
+  text-shadow: 1px 1px 2px black;
+position: absolute;
+top: 50%;
+transform: translateY(-50);
+
+}
