@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: black;
   color: #000000 ;
   margin: 0;
 }
@@ -29,31 +29,34 @@ background-image: url(lrvb.jpg);
 background-size: cover;
 }
 
+#talk{
+  margin: 0px;
+color: #black;
+
+}
+
+#talk h2{
+  color: #0dd89f;
+}
+
 #talk p {
   -moz-column-count: 2;
   -webkit-column-count: 2;
   column-count: 1;
+  color: black;
+
 }
 
 
 iframe {
+  align-content: center;
     display: block;
-    margin: auto;
+    margin: 100px;
 
 }
 
 
-.nastyadvert {
-  background-image: url(arctic-monkeys.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 90vh;
-  position:relative;
-}
 
-.nastyadvert h1{
-  background-attachment: scroll;
-}
 
 #mywork ul {
   list-style-type: none;
@@ -62,15 +65,10 @@ iframe {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin: 40px;
+  margin: 0px;
+  background-color: black;
+  padding: 20px;
 }
-
-#mywork ul{
-  list-style-type: none;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 0;
-  }
 
 
 
@@ -80,8 +78,14 @@ iframe {
 }
 
 #mywork img{
-  width: 100%
+  width: 100%;
 }
+
+#mywork img:hover {
+opacity: 0;
+background-image: none;
+}
+
 
 .wrapper {
         display: grid;
@@ -153,3 +157,40 @@ footer {
         padding-top: 40%;
       }
         }
+
+/*.comp-content img {
+    width: 100%;
+  }
+
+.competence{
+  display: flex;
+}
+
+.comp-content img {
+  width: 100%;
+}
+
+.comp-content {
+margin: 10px;
+min-width: 32%;
+}*/
+
+.comp h2 {
+  color: #0dd89f;
+}
+
+.competence{
+display: flex;
+padding: 20px;
+}
+
+.comp-content img{
+width: 100%
+}
+
+.comp-content{
+width: auto;
+margin: 10px;
+text-align: center;
+color: #0dd89f;
+}
