@@ -5,6 +5,7 @@ body {
   font-family: Didact Gothic;
   font-weight: 400;
   line-height: 1.45;
+
 }
 
 header h1 {
@@ -28,6 +29,7 @@ h1 {
 h2 {
 font-size: 3.375em;
 column-span: none;
+color: #0dd89f;
 
 }
 
@@ -37,7 +39,13 @@ h4 {font-size: 1.5em;}
 
 small, .font_small {font-size: 0.667em;}
 
-.nastyadvert h1 {
+
+footer h1 {
+  font-weight: bold;
+  font-size: 3.063em;
+
+}
+/*.nastyadvert h1 {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-align: center;
@@ -47,4 +55,4 @@ position: absolute;
 top: 50%;
 transform: translateY(-50);
 
-}
+}*/
